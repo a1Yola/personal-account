@@ -1,0 +1,59 @@
+.loginBody {
+    background: rgb(129,94,255);
+    background: radial-gradient(circle, rgba(129,94,255,1) 0%, rgba(148,187,233,1) 100%);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    background-color: #ffffff;
+    border-radius: 5px;
+    max-width: 345px; 
+    margin: 25vh auto 0 auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.formHeader {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(129,94,255);
+}
+
+.alert {
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(129,94,255);
+    border-color: rgb(129,94,255);
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: rgb(147, 117, 255);
+    border-color: rgb(147, 117, 255);
+    color: #fff;
+}
+
+.formFooter {
+    margin-top: 15px;
+    
+}
+
+.link {
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    background-color: #fff;
+    color: rgb(98, 55, 255);
+}
+
+.link:hover {
+    color: rgb(147, 117, 255);
+    cursor: pointer;
+}

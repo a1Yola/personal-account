@@ -1,0 +1,58 @@
+.homeBody {
+    background: #FFB75E;  
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  
+    background: linear-gradient(to right, #ED8F03, #FFB75E);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.userInfo {
+    display: flex;
+    margin: 10vh 0 3vh 15vh;
+    align-items: center;
+}
+
+.infoData {
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    background: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    color: #FFB75E;
+}
+
+.infoFirst, .infoSecond {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoSecond {
+    margin-top: 5%;
+}
+
+.userName, .userSurname, .userEmail {
+    padding-right: 15px;
+}
+
+.img {
+    padding: 10px 15px;
+    font-size: 75px;
+    background-color: #000000;
+    max-width: fit-content;
+    border-radius: 100%;
+}
+
+.btn {
+    background-color: #000000;
+    color: #FFB75E;
+    margin-left: 18.5vh;
+    transition: .3s;
+}
+
+.btn:hover {
+    opacity: .95;
+    color: #FFB75E;
+    transform: scale(1.04);
+}
