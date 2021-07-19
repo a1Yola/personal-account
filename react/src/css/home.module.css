@@ -1,0 +1,79 @@
+.homeBody {
+    background: #FFB75E;
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
+    background: linear-gradient(to right, #ED8F03, #FFB75E);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.cabinetHeader {
+    background: #222222;
+    position: fixed;
+    width: 100%;
+}
+
+.userInfo {
+    display: flex;
+    margin-top: 20vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoData {
+    margin-top: 3vh;
+    font-size: 21px;
+    font-weight: 500;
+    background: #222222;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.infoFirst,
+.infoSecond {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoSecond {
+    margin-top: 5%;
+}
+
+.userName,
+.userSurname,
+.userEmail {
+    padding-right: 15px;
+}
+
+.userPhone {
+    flex: 1 0 auto;
+}
+
+.infoFirst span, .infoSecond span {
+    font-size: 14px;
+    color: #FFB75E;
+}
+
+.img {
+    padding: 10px 15px;
+    font-size: 75px;
+    background-color: #222222;
+    max-width: fit-content;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: #FFB75E;
+    margin: 10px 0 10px 0;
+    float: right;
+    transition: .3s;
+    margin-right: 10vh;
+    font-weight: 600;
+}
+
+.btn:hover {
+    opacity: .95;
+    color: #222222;
+    transform: scale(1.04);
+}
